@@ -1,0 +1,71 @@
+##WHAT IS RUBY
+-programming language
+//refer to notebook
+-"Super fun to write!" "It's like a Ruby cult"
+-aims were for productive, happy and enjoyable programming
+-emphasize human rathern tahn computer needs
+-minimize programmer work and confusion
+-Features:
+  >object-oriented (everything is an object)
+  >succinct and flexible syntax
+  >no unnecessary code (; () {} )
+
+##EXAMPLES OF RUBY
+-Principle of Least Astonishment/Principle of Least Surprise = lang behaves in a way that you expect it to
+
+>Hello World:
+
+print "Hello, World!\n"
+
+>If Statement:
+
+something = true
+
+if something == true 
+    puts "something"
+end
+
+>For Loop:
+
+array = [1, 2, 3, 4, 5]
+for i in array
+    puts i
+end
+
+>Options:
+&& == and
+#size or #length both accepted
+#exit and #quit both accepted
+
+>Repeat multiple times:
+3.times {print 3} //output: 333
+
+>Print array:
+(0..3).each { |x| print x }              # outputs, 0123
+(0...10).reverse_each { |x| print x }    # outputs, 9876543210
+
+(0..2).last #outputs 0
+
+##RUBY NEEDS RAILS
+-Ruby made popular bc of Rails
+-person who created Rails specifically picked Ruby to write it in
+-extends Ruby with its own semantics
+
+##WHAT IS RAILS?
+-server-side framework for Ruby, which is client-side (?)
+-released open source July 2004
+-a framework built in the programming language of Ruby aka built ON RUBY
+-framework= provides structure
+-ROR included in Mac
+-connects to db
+-connected to front-end thru a web server like Mongreal, Apache, Cherokee, Passenger, etc
+-uses JS libraries
+-installed using RubyGems, a package manager
+-deployed with a db server like MySQl or PostgrSQL
+-good for rapid prototyping, makes it really popular among startups
+
+>Convention over Configuration
+
+>Don't Repeat Yourself
+
+Pillars: 9
